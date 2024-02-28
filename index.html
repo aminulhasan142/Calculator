@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" readonly placeholder="0" >
+        <div id="button-container">
+            <div class="first-line">
+                <button class="button" oneclick="appendToDisplay('')" id="oparator-btn">AC</button>
+                <button class="button" oneclick="" id="oparator-btn">⌫</button>
+                <button class="button" oneclick="" id="oparator-btn">%</button>
+                <button class="button" oneclick="" id="oparator-btn">÷</button>
+            </div>
+
+            <div class="second-line">
+                <button class="button" oneclick="">7</button>
+                <button class="button" oneclick="">8</button>
+                <button class="button" oneclick="">9</button>
+                <button class="button" oneclick="" id="oparator-btn">*</button>
+            </div>
+            
+            <div class="third-line">
+                <button class="button" oneclick="">4</button>
+                <button class="button" oneclick="">5</button>
+                <button class="button" oneclick="">6</button>
+                <button class="button" oneclick="" id="oparator-btn">-</button>
+            </div>
+            
+            <div class="fourth-line">
+                <button class="button" oneclick="">1</button>
+                <button class="button" oneclick="">2</button>
+                <button class="button" oneclick="">3</button>
+                <button class="button" oneclick="" id="oparator-btn">+</button>
+            </div>
+            
+            <div class="fith-line">
+                <button class="button" onclick="">00</button>
+                <button class="button" oneclick="">0</button>
+                <button class="button" oneclick="">.</button>
+                <button class="button" id="equalButton" oneclick="">=</button>
+            </div>
+            
+
+        </div>
+
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
